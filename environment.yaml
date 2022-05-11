@@ -1,0 +1,15 @@
+name: demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - requests
+  - pandas
+  - motor
+  - dnspython
+  - typer
+  - fastapi
+  - uvicorn
+  - pytest
+  - pytest-cov
+  - pytest-asyncio

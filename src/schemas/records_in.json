@@ -1,0 +1,31 @@
+{
+    "id": "int",
+    "name": "string",
+    "symbol": "string",
+    "slug": "string",
+    "cmc_rank": "int",
+    "num_market_pairs": "int",
+    "circulating_supply": "int",
+    "total_supply": "int",
+    "max_supply": "int",
+    "last_updated": "date",
+    "date_added": "date",
+    "tags": ["string"],
+    "platform": "string",
+    "self_reported_circulating_supply": "string",
+    "self_reported_market_cap": "string",
+    "quote": {
+        "USD": {
+            "price": "float",
+            "volume_24h": "float",
+            "volume_change_24h": "float",
+            "percent_change_1h": "float",
+            "percent_change_24h": "float",
+            "percent_change_7d": "float",
+            "market_cap": "float",
+            "market_cap_dominance": "float",
+            "fully_diluted_market_cap": "float",
+            "last_updated": "date"
+        }
+    }
+}

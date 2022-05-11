@@ -1,0 +1,17 @@
+{
+    "metadata": {
+        "id": "int",
+        "name": "string",
+        "symbol": "string",
+        "slug": "string",
+        "currency": "string"
+    },
+    "circulating_supply": "int",
+    "total_supply": "int",
+    "max_supply": "int",
+    "price": "float",
+    "volume_24h": "float",
+    "market_cap": "float",
+    "last_updated": "date",
+    "timestamp": "date"
+}
