@@ -21,10 +21,10 @@ as well as good aggregation performance on fields like price, volume, and supply
 
 Finally, the API serves as the main interface for the application. It gives users a window into the MongoDB database,
 as well as access to the transfer detector. There is a single endpoint for exposing the CoinMarketCap data
-which includes a number of options. A user can visit the */data* endpoint to retrieve all of the documents
+which includes a number of options. A user can visit the `/data` endpoint to retrieve all of the documents
 for all assets. By default, this will retrieve the most recent one hour of documents. If a user would like to lookup
 documents during a particular time window, they can provide a time_start and time_stop using an ISO formatted
-timestamp: i.e. */data?time_start='2022-05-11T00:0:00.000000'&time_stop='2022-05-11T01:0:00.000000'*. If a user is
+timestamp: i.e. `/data?time_start='2022-05-11T00:0:00.000000'&time_stop='2022-05-11T01:0:00.000000'`. If a user is
 interested in only a particular asset, they can provide a symbol at the endpoint, and optionally specify
 the quote currency:
 i.e. `/data/BTC?currency=USD&time_start='2022-05-11T00:0:00.000000'&time_stop='2022-05-11T01:0:00.000000`.
