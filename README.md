@@ -36,8 +36,8 @@ The CLI is included for convenience. It can be used to start the producer and ru
 
 ## Setup
 ```
-export MONGO_DEMO_CONNECTION_STRING=''
-export COIN_MARKET_CAP_API_KEY=''
+export MONGO_DEMO_CONNECTION_STRING='mongodb+srv://{}'
+export COIN_MARKET_CAP_API_KEY='{}'
 conda env create -f environment.yaml
 ```
 
