@@ -12,8 +12,8 @@ a metadata sub-document with information about the asset such as the name, symbo
 The remaining fields in the document will be market indicators such as price, volume, and supply.
 The market indicators can be quoted in multiple underlying currencies such as USD and EUR,
 so the quote currency is also included in a documents metadata. The records consumed from CoinMarketCap have a schema
-shown in /src/schemas/records_in.json and the records produced by the producer and stored in MongoDB have a schema
-shown in /src/schemas/records_out.json
+shown in */src/schemas/records_in.json* and the records produced by the producer and stored in MongoDB have a schema
+shown in */src/schemas/records_out.json*
 
 After transforming the data, the producer writes the documents to a MongoDB time series collection. The transformations
 applied will ensure good query performance when indexing based on the metadata fields such as name and currency,
